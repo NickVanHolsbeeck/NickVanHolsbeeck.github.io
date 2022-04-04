@@ -28,6 +28,11 @@
     />
         <!-- CSS -->
         <link rel="stylesheet" href="">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
 
     <body>
@@ -43,9 +48,12 @@
                 <h3 class="mt-3 text-md md:text-lg font-medium text-black/40">Expertise in: <span class="text-black/80 text-md md:text-lg" id="expertise-rotation">Front-end Development</span></h3>
                 <p class="mt-3 text-md font-light text-black/60">Een <i>'Digital Native'</i> met uitgebreide kennis van Design -en Development. Bachelor in Multimedia &amp; Communicatietechnologie. Actief in de Media Productie Industrie.</p>
                 <!-- button -->
-                <!-- <a href="https://be.linkedin.com/in/nick-van-holsbeeck-ba54a882" target="_blank" class="mt-6 px-6 py-3 inline-block rounded-full font-normal tracking-wide bg-blue-800 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out">
-                    Get In Touch!
-                </a> -->
+                <a href="#services" class="mt-6 mr-3 px-8 py-3 inline-block rounded-full font-medium tracking-wide bg-blue-600 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out">
+                    Services
+                </a>
+                <a href="#resume" class="mt-6 px-8 py-3 inline-block rounded-full font-medium tracking-wide bg-slate-900 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out">
+                    Resume
+                </a>
               </div>
               <div class="">
                 <img src="./images/img_introheader.jpg" class="object-cover mx-auto mt-5 h-auto w-[100%] md:max-w-[500px]" alt="" title="" />
@@ -80,7 +88,7 @@
             <div class="container mx-auto px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h2 class="text-sm text-blue-500 tracking-widest font-medium mb-1 uppercase">Knowledge is power...</h2>
-                    <h1 class="text-5xl font-bold text-white uppercase">Services</h1>
+                    <h1 id="services" class="text-5xl font-bold text-white uppercase">Services</h1>
                 </div>
                 <div class="flex flex-wrap -m-4">
                     <div class="p-2 md:w-1/3">
@@ -171,7 +179,7 @@
                 <div class="container bg-white mx-auto w-full h-full">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h2 class="text-sm text-blue-500 tracking-widest font-medium mb-1 uppercase">Education & Experience</h2>
-                        <h1 class="text-5xl font-bold text-black/80 uppercase">Resume</h1>
+                        <h1 id="resume" class="text-5xl font-bold text-black/80 uppercase">Resume</h1>
                         <p class="mt-3 text-md font-light text-black/60">Bachelor's degree<br>Multimedia &amp; Communicatietechnologie<br>Erasmushogeschool Brussel</p>
                     </div>
                     <div class="relative wrap overflow-hidden h-full">
